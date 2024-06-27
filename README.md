@@ -8,6 +8,8 @@ If you haven't done so yet, [prepare the environment](#preparing-the-environment
 
 Each notebook is a self-contained experiment. You can run them in any order.
 
+You may need to select a Python kernel the first time you open a notebook. Choose the kernel from the virtual environment you created.
+
 ## Preparing the environment
 
 This is a one-time step. If you have already done this, just activate the virtual environment with `source venv/bin/activate`.
