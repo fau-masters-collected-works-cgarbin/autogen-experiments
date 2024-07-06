@@ -20,6 +20,18 @@ You may need to select a Python kernel the first time you open a notebook. Choos
 
 ## Preparing the environment
 
+### OpenAI key
+
+Create a file named `.env` in the root of the project with the following content:
+
+```bash
+OPENAI_API_KEY=your-openai-api-key
+```
+
+This file is in the `.gitignore`. It will never be committed to the repository.
+
+### Python environment
+
 This is a one-time step. If you have already done this, just activate the virtual environment with `source venv/bin/activate`.
 
 Run the following commands to create a virtual environment and install the required packages.
